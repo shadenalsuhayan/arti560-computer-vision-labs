@@ -2,7 +2,6 @@ import os
 import certifi
 os.environ['SSL_CERT_FILE'] = certifi.where()
 
-
 import argparse
 import cv2
 import numpy as np
